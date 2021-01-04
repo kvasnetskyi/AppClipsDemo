@@ -1,7 +1,7 @@
 # AppClips
 **AppClips** – technology that allows users to use the valuable functionality of an app, without having to install it first. It is a small part of the app (less than 10 Mb) that can be called up and used exactly when it comes in handy.
 
-For more information, you can read the presentation [presentation](https://drive.google.com/file/d/1gDve6U5wsDtA8voAgUDaALYzpa0-MtbD/view?usp=sharing).
+For more information, you can read the [presentation](https://drive.google.com/file/d/1gDve6U5wsDtA8voAgUDaALYzpa0-MtbD/view?usp=sharing).
 
 # Discovery
 In order to use App Clip, it must be discovered.
@@ -37,6 +37,7 @@ You can also set up a Smart App Banner right away, which is a great way to redir
 ```
 
 **App Side**
+
 In Capabilities you need to add Associated Domains, where you need to list all the domains used with the service prefix "appclips:"
 
 **More information:**
@@ -99,6 +100,7 @@ App Clip allows you to recommend your app for download using SKOverlay.
 3. Call the present method of SKOverlay.
 
 **SwiftUI**
+
 Use modifier:
 ```Ruby
 appStoreOverlay(isPresented:configuration:)
