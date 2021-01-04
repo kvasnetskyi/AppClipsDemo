@@ -1,7 +1,7 @@
 # AppClips
 **AppClips** – technology that allows users to use the valuable functionality of an app, without having to install it first. It is a small part of the app (less than 10 Mb) that can be called up and used exactly when it comes in handy.
 
-For more information, you can read the [presentation](https://drive.google.com/file/d/1gDve6U5wsDtA8voAgUDaALYzpa0-MtbD/view?usp=sharing).
+You can find more information in a [presentation](https://drive.google.com/file/d/1gDve6U5wsDtA8voAgUDaALYzpa0-MtbD/view?usp=sharing) and [video](https://web.microsoftstream.com/video/31d5bdb6-42de-4643-8524-6e8bc2802afa).
 
 # Discovery
 In order to use App Clip, it must be discovered.
@@ -111,3 +111,25 @@ appStoreOverlay(isPresented:configuration:)
 
 # Limitations
 App Clips use SwiftUI and UIKit and have access to the same frameworks as the full app. However, some technologies are limited. A list can be found in the [documentation](https://developer.apple.com/documentation/app_clips/choosing_the_right_functionality_for_your_app_clip).
+
+Developed By
+------------
+
+* Kvasnetskyi Artem, Kosyi Vlad, CHI Software
+
+License
+--------
+
+Copyright 2020 CHI Software.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
